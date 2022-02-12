@@ -1,0 +1,17 @@
+print("enter any 5 values")
+n=int(input())
+disc=0
+tax=0
+if n>5000:
+    disc=n*(10/100)
+elif n>3000:
+    disc=n*(8/100)
+elif n>=2000:
+    disc=n*(5/100)
+elif n>1000:
+    disc=n*(3/100)
+    if n>3000:
+        tax=n(10/100)
+        print ("discount is:",disc)
+        print("tax is:",tax)
+        n=1
